@@ -15,7 +15,11 @@ public class TopViewBinaryTree {
 
     class Pair{
         int val;
-        
+        Node node;
+        Pair(int val, Node node){
+            this.val = val;
+            this.node = node;
+        }
 
     }
 
